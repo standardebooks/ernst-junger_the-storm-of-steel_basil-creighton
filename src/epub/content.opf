@@ -62,10 +62,11 @@
 		<link href="CONTRIBUTOR_WIKI_URL" refines="#translator" rel="schema:sameAs"/>
 		<link href="CONTRIBUTOR_NACOAF_URI" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">C. R. W. Nevinson</dc:contributor>
+		<meta property="file-as" refines="#artist">Nevinson, C. R. W.</meta>
+		<meta property="schema:alternateName" refines="#artist">Christopher Richard Wynne Nevinson</meta>
+		<link href="https://en.wikipedia.org/wiki/C._R._W._Nevinson" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/n86139912" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
