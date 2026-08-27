@@ -30,7 +30,7 @@ p span.i1{
 	text-indent: -1em;
 }
 
-blockquote[epub|type~="z3998:signature"]{
+[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
