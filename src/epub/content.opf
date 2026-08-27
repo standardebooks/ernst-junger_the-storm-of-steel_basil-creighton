@@ -30,20 +30,18 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Storm of Steel</dc:title>
 		<meta property="file-as" refines="#title">Storm of Steel, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">World War, 1914-1918</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">ABSTRACT</meta>
+		<meta property="term" refines="#subject-1">sh85148236</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:abstract">A German storm troop officer recounts his experiences in World War I.</meta>
 		<dc:description>
 			DESCRIPTION
 		</dc:description>
-		<dc:language>LANG</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://en.wikisource.org/wiki/The_Storm_of_Steel</dc:source>
+		<dc:source>https://archive.org/details/stormofsteelfrom0000erns</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Storm_of_Steel" rel="schema:sameAs"/>
@@ -52,15 +50,12 @@
 		<link href="https://github.com/standardebooks/ernst-junger_the-storm-of-steel_basil-creighton" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ernst Jünger</dc:creator>
 		<meta property="file-as" refines="#author">Jünger, Ernst</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Ernst_J%C3%BCnger" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50038756.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Basil Creighton</dc:contributor>
 		<meta property="file-as" refines="#translator">Creighton, Basil</meta>
-		<meta property="schema:alternateName" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="CONTRIBUTOR_WIKI_URL" refines="#translator" rel="schema:sameAs"/>
-		<link href="CONTRIBUTOR_NACOAF_URI" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2002056028.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">C. R. W. Nevinson</dc:contributor>
 		<meta property="file-as" refines="#artist">Nevinson, C. R. W.</meta>
@@ -68,18 +63,11 @@
 		<link href="https://en.wikipedia.org/wiki/C._R._W._Nevinson" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/n86139912" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
+		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
 		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
