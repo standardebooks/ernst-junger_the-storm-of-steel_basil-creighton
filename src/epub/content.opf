@@ -30,6 +30,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Storm of Steel</dc:title>
 		<meta property="file-as" refines="#title">Storm of Steel, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">From the Diary of a German Storm-Troop Officer on the Western Front</dc:title>
+		<meta property="file-as" refines="#subtitle">From the Diary of a German Storm-Troop Officer on the Western Front</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Storm of Steel: From the Diary of a German Storm-Troop Officer on the Western Front</dc:title>
+		<meta property="file-as" refines="#fulltitle">The Storm of Steel</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">World War, 1914-1918</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85148236</meta>
