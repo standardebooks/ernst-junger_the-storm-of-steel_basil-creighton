@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ernst-junger/the-storm-of-steel/basil-creighton</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-10-06T21:19:53Z</dc:date>
+		<meta property="dcterms:modified">2026-10-06T21:19:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -37,6 +37,7 @@
 		<dc:title id="fulltitle">The Storm of Steel: From the Diary of a German Storm-Troop Officer on the Western Front</dc:title>
 		<meta property="file-as" refines="#fulltitle">The Storm of Steel</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
+		<meta property="dcterms:alternative" refines="#title">In Storms of Steel</meta>
 		<dc:subject id="subject-1">World War, 1914-1918</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85148236</meta>
@@ -44,13 +45,16 @@
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:abstract">A German storm troop officer recounts his experiences in World War I.</meta>
 		<dc:description>
-			DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ernst-junger"&gt;Ernst Jünger&lt;/a&gt; was a German officer commanding storm troopers during World War I. This, his memoir of his time on the front, is one of the very first literary accounts of the Great War.&lt;/p&gt;
+			&lt;p&gt;Jünger begins his story as a private entering training in the Champagne region. He continues on to take part in various battles, climbing the ranks until attaining command of a regiment and accumulating fourteen different hits from bullets or shrapnel. His career ends near the very end of the war: his lung is punctured by a bullet while his men die all around him, and he’s sent to the rear to convalesce in the war’s waning months.&lt;/p&gt;
+			&lt;p&gt;The realities of this new style of war are described in a matter-of-fact and mostly apolitical way. Despite the obscene horrors Jünger graphically recounts, he seems stoic, even apathetic, about his role in the war, and about the destruction it caused. As he narrates battle after battle in gruesome detail, he falls back on a sense of “war without anger,” framing himself as a cog in an emotionless machine and his enemies as deserving of respect for their valor, and not hatred for their actions. Even as his superiors issue orders that he can clearly see will lead his men into the bloody meat grinder, Jünger remains obedient, patriotic, and driven by a sense of duty and national pride.&lt;/p&gt;
+			&lt;p&gt;The first edition was published in 1920, shortly after the war’s end. Jünger revised the book several times, transforming its raw diary style into a more literary one in 1924. Consequently, the book sold incredibly well, allowing Jünger to lead a post-war career as a writer. Its emphasis on nationalism made it a favorite of Nazi propagandists in the early 1930s, in contrast with &lt;a href="https://standardebooks.org/ebooks/erich-maria-remarque"&gt;Erich Maria Remarque’s&lt;/a&gt; equally matter-of-fact but more clearly anti-war &lt;a href="https://standardebooks.org/ebooks/erich-maria-remarque/all-quiet-on-the-western-front/a-w-wheen"&gt;&lt;i&gt;All Quiet on the Western Front&lt;/i&gt;&lt;/a&gt;, which the Nazis banned. Jünger, who was not a Nazi, again revised it in 1934 in an attempt to make it less attractive as nationalistic propaganda, but despite his attempts the book remained a popular one both with the Wehrmacht and with the public.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/The_Storm_of_Steel</dc:source>
 		<dc:source>https://archive.org/details/stormofsteelfrom0000erns</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">90311</meta>
+		<meta property="schema:educationalLevel">69.62</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Storm_of_Steel" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
