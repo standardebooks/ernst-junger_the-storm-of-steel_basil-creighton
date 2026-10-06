@@ -43,6 +43,7 @@ p span.i1{
 }
 
 #chapter-18 blockquote[epub|type~="z3998:letter"] header p:last-child{
+	margin: 1em 0;
 	text-align: center;
 }
 
